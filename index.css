@@ -57,8 +57,22 @@ header {
   background-color: rgb(238, 238, 238);
 }
 
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+
 .logo {
   width: 60vw;
+}
+
+@media (max-width: 650px) {
+  .logo {
+    margin-top: 15px;
+    width: 100%;
+    position: relative;
+  }
 }
 
 .logo img {
@@ -70,6 +84,12 @@ header {
   align-items: center;
   text-align: center;
   margin-left: 20px;
+}
+
+@media (max-width: 650px) {
+  .logo img {
+    margin: 0 auto;
+  }
 }
 
 nav {
@@ -86,6 +106,7 @@ nav {
     text-align: center;
     padding: 0 50px;
   }
+
   nav li {
     padding-bottom: 5px;
   }
