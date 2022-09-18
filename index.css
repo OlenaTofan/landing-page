@@ -1,6 +1,6 @@
 #hero {
   height: 800px;
-  background-image: url("/img/ocean.jpg");
+  background-image: url("img/ocean.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -63,6 +63,7 @@
 
 #destination {
   display: flex;
+  justify-content: center;
   width: 90%;
   margin: auto;
   margin-bottom: 40px;
